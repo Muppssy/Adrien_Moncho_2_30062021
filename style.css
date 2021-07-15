@@ -1,0 +1,886 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1502px;
+}
+
+
+/*-------------Navbar--------------*/
+
+
+.navbar
+{
+
+    height: 70px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+
+.logo img
+{
+    margin-top:15px;
+    margin-left:50px;
+    transition: all 0.50s;
+}
+
+
+.logo img:hover
+{
+    transform:scale(1.2);
+   
+
+   
+   
+    
+}
+
+
+.navbar .container_navbar
+{
+    width:100%;
+    margin-right:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    height: 120px;
+}
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.liens1 a
+{   
+    height:120px;
+    width:120px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:black;
+}
+
+.liens1 a:hover 
+{   
+   border-top: 2px solid #0065fc;
+   color:#0065fc;
+}
+
+
+.liens2 a
+{   
+    height:120px;
+    width:120px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:black;
+}
+
+.liens2 a:hover 
+{   
+   border-top: 2px solid #0065fc;
+   color: #0065fc;
+}
+
+.active a
+{   
+    height:120px;
+    width:120px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color: #0065fc;
+    font-weight:bold;
+}
+
+/*---------------Section recherche----------------*/
+
+.section_search
+{
+    height:290px;
+    margin-top:57px ;
+    margin-left:50px;
+   
+}
+
+    
+
+
+.section_search .title_search
+{height: 340px;margin: 0 auto;display: flex;flex-direction:column;flex-wrap:wrap;}
+
+.title_search p
+{
+    margin-top: 20px;
+}
+
+/*----------------------barre de recherche----------------------*/
+
+.search_bar_size
+{
+    height:50px;
+    margin: 23px 0 0 0;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.map_img
+{
+    height:50px;
+    width:50px;
+    background: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.search_area input
+{
+    height:50px;
+    width:auto;
+    border: 2px solid #f2f2f2;
+    text-align:center;
+    font-weight:bold;
+    color:black;
+}
+
+.button_search a
+{
+    height:50px;
+    width:135px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0065fc;
+    border-radius: 0px 15px 15px 0px;
+    font-weight:bold;
+    color:white; 
+    cursor: pointer;
+}
+
+
+/*--Section Filtre--*/
+
+.filter_size
+{
+    height:50px;
+    width:auto;
+    margin-top:31px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+  
+}
+
+.title_filter
+{
+    margin-right: 30px;
+}
+
+.filter
+ {
+     height: 50px;
+     border: 2px solid #f2f2f2;
+     border-radius: 28px;
+     margin-right: 30px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+ }
+
+.filter_color
+{
+    height:52px;
+    width:52px;
+    color: #0065fc;
+    background:#deebff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.text_area
+{
+    height:50px;
+    padding: 0px 10px 0px 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight: bold;
+}
+
+.filter:hover > .filter_color
+{
+   color:#deebff;
+}
+.filter:hover > .filter_color
+{
+     background:#0065fc;
+}
+/* section Info*/
+
+.info_container
+{
+    height:50px;
+    width:auto;
+    margin-top:21px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.info_color
+{
+    height:25px;
+    width:25px;
+    margin-right:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#0065fc;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+}
+/*section Hébergement*/
+
+
+.all_hebergement
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1502px;
+   
+}
+
+.container_herbegement
+{
+    flex: 2;
+    flex-wrap: wrap;
+    height:650px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-radius: 15px 15px 15px 15px;
+}
+.title
+
+{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.container
+{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card
+{
+    width: 247px;
+    height: 216px;
+    margin:30px;
+    border-radius:15px 15px 15px 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.50s;
+    cursor: pointer;
+}
+
+.card:hover
+{
+    transform:scale(1.1);
+    
+}
+
+.img1
+{
+    background-image: url("./images/hebergements/4_small/auber_le_panier.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 114px;
+     width: 236px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.img2
+{
+    background-image: url("./images/hebergements/4_small/hotel_du_port.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 114px;
+    width: 236px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.img3
+{
+    background-image: url("./images/hebergements/4_small/hotel_des_Mouettes.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 114px;
+    width: 236px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.img4
+{
+    background-image: url("./images/hebergements/4_small/hotel_de_la_mer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 114px;
+    width: 236px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.img5
+{
+    background-image: url("./images/hebergements/4_small/auber_le_panier.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 114px;
+    width: 236px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.img6
+{
+    background: url("./images/hebergements/4_small/Hotel_chez_amina.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 114px;
+    width: 236px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.content 
+{
+    width: 247px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content > p
+{
+    
+   margin-left: 20px ;
+   
+}
+
+
+ .title_card 
+{
+    width: 247px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+ span
+ {
+     font-weight: bold;
+ }
+
+ .stars
+ {  
+    color:#0065fc;
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+
+ .unstar
+ {
+     color: #f2f2f2;
+ }
+
+ 
+
+.container_most_popular
+{
+    flex: 1;
+    flex-wrap: wrap;
+    height:650px;
+    background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-radius: 15px 15px 15px 15px;
+}
+.affiche > a
+{
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*section Most_popular*/  /*section revoir*/
+
+.container_most_popular
+{
+    flex: 1;
+    flex-wrap: wrap;
+    height:650px;
+    width: 100%;
+    max-width: 403px;
+    background-color: #f2f2f2;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-radius: 15px 15px 15px 15px;
+}
+.title_most_popular
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 389px;
+}
+
+.container_most_popular
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card_most_popular
+{
+    width: 343px;
+    height: 143px;
+    margin:30px;
+    border-radius:15px 15px 15px 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.50s;
+    cursor: pointer;
+}
+
+.card_most_popular:hover
+{
+    transform:scale(1.1) ;
+}
+
+.img11
+{
+    background-image: url("./images/hebergements/4_small/hotel_du_soleil_malin.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 133px;
+    width: 137px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    border-radius:15px 0 0px 15px;
+}
+
+.img22
+{
+    background-image: url("./images/hebergements/4_small/Most_popular_Au_coeur_de_l\'eau.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 133px;
+    width: 137px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    border-radius:15px 0 0px 15px;
+}
+
+.img33
+{
+    background-image: url("./images/hebergements/4_small/Hotel_tout_bleu_et_blanc.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 133px;
+    width: 137px;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    border-radius:15px 0 0px 15px;
+}
+
+.content_most_popular
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 196px;
+    height: 132px;
+}
+
+.content_most_popular > p
+{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 13px;
+}
+
+.content_most_popular > .title_card_most_popular
+{
+    margin-left: 20px ;
+}
+
+.stars_most_popular
+{
+    margin-right: 48px;
+    margin-top: 40px;
+    color:#0065fc;
+}
+/* Section activité*/
+
+.container_title_activ
+{
+    display: flex;
+    height:50px;
+    margin-left: 40px;
+    margin-top: 40px;
+    justify-content: flex-start;
+}
+
+.container_activite
+{
+    width: 100%;
+    max-width: 1532px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_activA
+{
+    width: 1502px;
+    height: auto;
+    margin-left: -13px;
+    margin-right: 50px;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardA
+{
+display: flex;
+flex-direction: column;
+justify-content:flex-end ;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px;
+height: 445px;
+width: 305px;
+background: white;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+transition: all 1s ;
+cursor: pointer;
+}
+
+.cardA1
+{
+display: flex;
+flex-direction: column;
+justify-content:flex-end ;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+height: 235px;
+width: 305px;
+background: white;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+transition: all 1s ;
+cursor: pointer;
+}
+
+.cardA2
+{
+display: flex;
+flex-direction: column;
+justify-content:center ;
+margin-top: 45px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 75px;
+height: 165px;
+width: 305px;
+background: white;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+transition: all 1s ;
+cursor: pointer;
+}
+
+.cardA3
+{
+display: flex;
+flex-direction: column;
+justify-content:center ;
+margin-top: 30px;
+margin-left: 30px;
+height: 195px;
+width: 305px;
+background: white;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+transition: all 1s ;
+cursor: pointer;
+}
+
+.cardA4
+{
+display: flex;
+flex-direction: column;
+justify-content:center ;
+margin-top: 30px;
+margin-left: 30px;
+margin-bottom: 75px;
+height: 208px;
+width: 305px;
+background: white;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+transition: all 1s ;
+cursor: pointer;
+}
+
+.tof
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.tof2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+
+.imgA 
+{
+    background-image: url(./images/activites/4_small/Vieux\ Port.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+}
+
+.imgA1 
+{
+    background-image: url(./images/activites/4_small/Fort\ de\ Pomègues.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+}
+
+.imgA2
+{
+    background-image: url(./images/activites/4_small/Iles\ du\ Frioul.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+    
+}
+
+.imgA3
+{
+    background-image: url(./images/activites/4_small/Parc\ National\ des\ Calanques.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+}
+
+.imgA4
+{
+    background-image: url(./images/activites/4_small/Notre-Dame-de-la-Garde.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+}
+
+.imgA5
+{
+    background-image: url(./images/activites/4_small/Parc\ Longchamps.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+}
+
+
+
+.contentA
+{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+.cardA:hover
+{
+transform: scale(1.1);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cardA1:hover
+{
+transform: scale(1.1);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cardA2:hover
+{
+transform: scale(1.1);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cardA3:hover
+{
+transform: scale(1.1);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cardA4:hover
+{
+transform: scale(1.1);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/*FOOTER*/
+
+footer
+{
+    height: 219px;
+    background: #f2f2f2;
+    clear: both;
+    margin-left: 38px;
+    display:flex;
+}
+
+.link_footer
+{
+    max-width: 80%;
+    width: 100%;
+    height: 98px;
+    margin-top:50px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+ 
+.link 
+{
+    height: 129px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.link
+{
+    
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 34px;
+    margin-right: 150px;
+}
+
+.link > a
+{
+    color: black;
+   margin-top: 20px;
+
+}
+
+.link > a:hover
+{
+    color: #0065fc
+}
