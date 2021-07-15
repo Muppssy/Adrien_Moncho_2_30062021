@@ -325,7 +325,7 @@ nav
 
 .img1
 {
-    background-image: url("./images/hebergements/4_small/auber_le_panier.jpg");
+    background-image: url("./images/hebergements/4_small/aubergelacannebiere.jpg");
     background-size: cover;
     background-position: center;
     height: 114px;
@@ -338,7 +338,7 @@ nav
 
 .img2
 {
-    background-image: url("./images/hebergements/4_small/hotel_du_port.jpg");
+    background-image: url("./images/hebergements/4_small/Hotelduport.jpg");
     background-size: cover;
     background-position: center;
     height: 114px;
@@ -351,7 +351,7 @@ nav
 
 .img3
 {
-    background-image: url("./images/hebergements/4_small/hotel_des_Mouettes.jpg");
+    background-image: url("./images/hebergements/4_small/Hotellesmouettes.jpg");
     background-size: cover;
     background-position: center;
     height: 114px;
@@ -364,7 +364,7 @@ nav
 
 .img4
 {
-    background-image: url("./images/hebergements/4_small/hotel_de_la_mer.jpg");
+    background-image: url("./images/hebergements/4_small/Hôtel_de_la_mer.jpg");
     background-size: cover;
     background-position: center;
     height: 114px;
@@ -377,7 +377,7 @@ nav
 
 .img5
 {
-    background-image: url("./images/hebergements/4_small/auber_le_panier.jpg");
+    background-image: url("./images/hebergements/4_small/AubergelePanier.jpg");
     background-size: cover;
     background-position: center;
     height: 114px;
@@ -390,7 +390,7 @@ nav
 
 .img6
 {
-    background: url("./images/hebergements/4_small/Hotel_chez_amina.jpg") ;
+    background: url("./images/hebergements/4_small/chezamina.jpg") ;
     background-size: cover;
     background-position: center;
     height: 114px;
@@ -523,7 +523,7 @@ nav
 
 .img11
 {
-    background-image: url("./images/hebergements/4_small/hotel_du_soleil_malin.jpg");
+    background-image: url("./images/hebergements/4_small/Hoteldusoleilmalin.jpg");
     background-size: cover;
     background-position: center;
     height: 133px;
@@ -537,7 +537,7 @@ nav
 
 .img22
 {
-    background-image: url("./images/hebergements/4_small/Most_popular_Au_coeur_de_l\'eau.jpg");
+    background-image: url("./images/hebergements/4_small/Au\ coeur\ de\ l\'eau.jpg");
     background-size: cover;
     background-position: center;
     height: 133px;
@@ -551,7 +551,7 @@ nav
 
 .img33
 {
-    background-image: url("./images/hebergements/4_small/Hotel_tout_bleu_et_blanc.jpg");
+    background-image: url("./images/hebergements/4_small/Hoteltoutbleuetblanc.jpg");
     background-size: cover;
     background-position: center;
     height: 133px;
@@ -731,7 +731,7 @@ cursor: pointer;
 
 .imgA 
 {
-    background-image: url(./images/activites/4_small/Vieux\ Port.jpg);
+    background-image: url(./images/activites/4_small/Vieuxport.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -741,7 +741,7 @@ cursor: pointer;
 
 .imgA1 
 {
-    background-image: url(./images/activites/4_small/Fort\ de\ Pomègues.jpg);
+    background-image: url(./images/activites/4_small/Fort\ de\ pomègue.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -751,7 +751,7 @@ cursor: pointer;
 
 .imgA2
 {
-    background-image: url(./images/activites/4_small/Iles\ du\ Frioul.jpg);
+    background-image: url(./images/activites/4_small/IleduFrioul.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -762,7 +762,7 @@ cursor: pointer;
 
 .imgA3
 {
-    background-image: url(./images/activites/4_small/Parc\ National\ des\ Calanques.jpg);
+    background-image: url(./images/activites/4_small/Parcnationaldescalanques.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -772,7 +772,7 @@ cursor: pointer;
 
 .imgA4
 {
-    background-image: url(./images/activites/4_small/Notre-Dame-de-la-Garde.jpg);
+    background-image: url(./images/activites/4_small/NotredamedelaGarde.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -782,7 +782,7 @@ cursor: pointer;
 
 .imgA5
 {
-    background-image: url(./images/activites/4_small/Parc\ Longchamps.jpg);
+    background-image: url(./images/activites/4_small/ParcLonchamps.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
