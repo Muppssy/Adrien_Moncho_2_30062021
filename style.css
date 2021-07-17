@@ -52,7 +52,7 @@ html
 .navbar .container_navbar
 {
     width:100%;
-    margin-right:50px;
+    margin-right:100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,6 +74,7 @@ nav
     justify-content:space-around;
     align-items:center;
     color:black;
+    margin-right: 20px;
 }
 
 .liens1 a:hover 
@@ -218,6 +219,7 @@ nav
     justify-content:center;
     align-items:center;
 }
+
 
 
 .text_area
@@ -526,6 +528,7 @@ nav
     background-image: url("./images/hebergements/4_small/Hoteldusoleilmalin.jpg");
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     height: 133px;
     width: 137px;
     margin-top:5px;
@@ -737,6 +740,7 @@ cursor: pointer;
     height: 100%;
     border-radius: 15px 15px 0 0;
     margin-bottom: 30px;
+   
 }
 
 .imgA1 
@@ -863,15 +867,7 @@ footer
     margin-right: 150px;
 }
 
-.link
-{
-    
-    height: 98px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 34px;
-    margin-right: 150px;
-}
+
 
 .link > a
 {
@@ -884,3 +880,125 @@ footer
 {
     color: #0065fc
 }
+
+
+
+  
+@media screen and (max-width:768px) 
+{
+    body
+    {
+    margin: 0px auto;
+
+    }
+    .title_search
+    {
+        height: 360px;
+        margin-left: 0;
+    }
+   .filter
+   {
+       margin-bottom: 20px;
+   }
+
+   .info_container
+   {
+       margin-top: 75px;
+   }
+
+   .container_herbegement
+   {
+       margin-left: 10px;
+       margin-right: 10px;
+       height: auto;
+   }
+
+   .container
+   {
+       display: flex;
+       justify-content: center;
+       
+   }
+   section
+   {
+       margin-top: 0;
+       width: 748px;
+       height: auto;
+   }
+   .container_most_popular
+   {
+       margin-left:20px;
+       margin-right: 20px;
+       max-width: 97%;
+   }
+
+   .title_most_popular
+   {
+       width: 92%;
+   }
+   /*.card_most_popular
+   {
+
+   }*/
+
+   .container_activA
+   {
+       margin-right: 0;
+   }
+
+   .cardA
+   {
+     margin-top: 0px; 
+     margin-bottom: 0px;
+   }
+   
+   .container_title_activ
+   {
+        margin-top: 0;
+        margin-left: 60px;
+   }
+
+.cardA4
+{
+     margin-left: 0; 
+     margin-bottom: 0;
+}
+
+.cardA3
+{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.cardA2
+{
+    margin-left: 0; 
+     margin-right: 0;
+    margin-bottom: 0;
+}
+
+.cardA1
+{
+    margin-top: 0; 
+    margin-left: 0; 
+    margin-right: 0;
+}
+
+.tof2 {
+   
+     margin-bottom: 0; 
+}
+
+    .footer
+    {
+        margin-left: 0;
+        max-width: 768px;
+        height: auto;
+    }
+
+    .link_footer
+    {
+        margin-left: 10px;
+    }
+}
+
