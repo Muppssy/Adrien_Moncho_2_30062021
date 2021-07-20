@@ -15,21 +15,23 @@
 <body>
  
                                                                <!--Navbar/HEADER-->
-<header class="navbar">
-    <div class="container_navbar">
-        <div class="logo">
+   <div id="container_navbar">
+        <header>
+        <div id="logo">
             <img src="./images/logo/Reservia.svg" alt="Logo_Reservia">
-        </div>
-        <nav>
-            <div class="liens1"><a href="#hebergement">Hébergement</a></div>
-                
-            <div class="liens2"><a href="#activ">Activités</a></div>
+        </header>
 
-            <div class="active"><a href="#">S'inscrire</a></div>
-            
-        </nav>
+            <nav>
+                <div class="liens_activ">
+                    <div class="liens1"><a href="#hebergement">Hébergement</a></div>  
+                    <div class="liens1"><a href="#activ">Activités</a></div>
+                    <div class="active"><a href="#">S'inscrire</a></div>
+                </div> 
+            </nav>
     </div>
-</header>
+  </header>
+         
+
                                                                     <!--Section Search-->
     <section class="section_search">
         <div class="title_search">
@@ -74,7 +76,9 @@
             <div id="hebergement" class="title"><h3>Hébergement à Marseille</h3></div>
             <div class="container">
                 <div class="card">
-                    <div class="img1"></div>
+                    <div class="img">
+                        <img src="./images/hebergements/4_small/aubergelacannebiere.jpg" alt="Auberge de la Cannebière">
+                    </div>
                     <div class="content">
                         <div class="title_card"> <h3>Auberge la Cannebière</h3></div>
                         <p>Nuit à partir de <span>25€</span></p>
@@ -89,7 +93,9 @@
                 </div> 
                 
                 <div class="card">
-                    <div class="img2"></div>
+                    <div class="img">
+                        <img src="./images/hebergements/4_small/Hotelduport.jpg" alt=" Hôtel du port">
+                    </div>
                     <div class="content">
                         <div class="title_card"> <h3>Hôtel du port</h3></div>
                         <p>Nuit à partir de <span>52€</span></p>
@@ -103,7 +109,9 @@
                 </div>
          
                 <div class="card">
-                    <div class="img3"></div>
+                    <div class="img">
+                        <img src="./images/hebergements/4_small/Hotellesmouettes.jpg" alt="Hotel les mouettes">
+                    </div>
                     <div class="content">
                         <div class="title_card"> <h3>Hôtel les mouettes</h3></div>
                         <p>Nuit à partir de <span>76€</span></p>
@@ -118,7 +126,9 @@
                 </div> 
     
                 <div class="card">
-                    <div class="img4"></div>
+                    <div class="img">
+                        <img src="./images/hebergements/4_small/Hôtel_de_la_mer.jpg" alt=" Hôtel de la mer">
+                    </div>
                     <div class="content">
                         <div class="title_card"> <h3>Hôtel de la mer</h3></div>
                         <p>Nuit à partir de <span>46€</span></p>
@@ -134,7 +144,9 @@
     
     
                 <div class="card">
-                    <div class="img5"></div>
+                    <div class="img">
+                        <img src="./images/hebergements/4_small/AubergelePanier.jpg" alt="Auberge le Panier">
+                    </div>
                     <div class="content">
                         <div class="title_card"> <h3>Auberge le Panier</h3></div>
                         <p>Nuit à partir de <span>23€</span></p>
@@ -149,7 +161,9 @@
                 </div> 
     
                 <div class="card">
-                    <div class="img6"></div>
+                    <div class="img">
+                        <img src="./images/hebergements/4_small/chezamina.jpg" alt="Hotel chez Amina">
+                    </div>
                     <div class="content">
                         <div class="title_card"> <h3>Hôtel chez Amina</h3></div>
                         <p>Nuit à partir de <span>96€</span></p>
@@ -178,7 +192,9 @@
                
                 <div class="container_card_popular">
                     <div class="card_most_popular">
-                        <div class="img11"></div>
+                        <div class="img1">
+                            <img src="./images/hebergements/4_small/Hoteldusoleilmalin.jpg" alt="Hôtel du Soleil Matin">
+                        </div>
                         <div class="content_most_popular">
                             <div class="title_card_most_popular"><h3>Hôtel Le soleil du matin</h3></div>
                             <p>Nuit à partir de <span>128€</span></p>
@@ -194,7 +210,9 @@
              
                     
                     <div class="card_most_popular">
-                        <div class="img22"></div>
+                        <div class="img1">
+                            <img src="./images/hebergements/4_small/Au coeur de l'eau.jpg" alt=" Chambre d'hôtes Au Coeur de l'eau">
+                        </div>
                         <div class="content_most_popular">
                             <div class="title_card_most_popular"><h3>Au coeur de l'eau Chambre d'hôtes</h3></div>
                             <p>Nuit à partir de <span>71€</span></p>
@@ -209,7 +227,9 @@
                      </div>
              
                      <div class="card_most_popular">
-                        <div class="img33"></div>
+                        <div class="img1">
+                            <img src="./images/hebergements/4_small/Hoteltoutbleuetblanc.jpg" alt="Hôtel tout bleu tout Blanc">
+                        </div>
                         <div class="content_most_popular">
                             <div class="title_card_most_popular"><h3>Hôtel tout bleu et Blanc</h3></div>
                             <p>Nuit à partir de <span>68€</span></p>
@@ -237,36 +257,48 @@
     
       <div class="container_activA">
           <div class="cardA">
-              <div class="imgA"></div>
+              <div class="imgA">
+                  <img src="./images/activites/4_small/Vieuxport.jpg" alt=" Vieux port Marseille">
+              </div>
               <div class="contentA" ><p>Vieux Port</p></div>
           </div>
 
        <div class="tof" >
           <div class="cardA1">
-            <div class="imgA1"></div>
+            <div class="imgA1">
+                <img src="./images/activites/4_small/Fort de pomègue.jpg" alt="Fort de Pomègue Marseille">
+            </div>
             <div class="contentA" ><p>Fort de Pomègues</p></div>
           </div>
 
           <div class="cardA2">
-             <div class="imgA2"></div>
+             <div class="imgA2">
+                 <img src="./images/activites/4_small/IleduFrioul.jpg" alt="Ile du Frioul">
+             </div>
              <div class="contentA" ><p>Ile du Frioul</p></div>
           </div>
         </div>
 
         <div class="cardA">
-          <div class="imgA3"></div>
+          <div class="imgA">
+              <img src="./images/activites/4_small/Parcnationaldescalanques.jpg" alt="Parc National des Calanques">
+          </div>
           <div class="contentA" ><p>Parc National des Calanques</p></div>
       </div>
 
         <div class="tof2" >
        
       <div class="cardA3">
-        <div class="imgA4"></div>
+        <div class="imgA4">
+            <img src="./images/activites/4_small/NotredamedelaGarde.jpg" alt="Notre Dame de la Garde">
+        </div>
         <div class="contentA" ><p>Notre-Dame-de-la-Garde</p></div>
       </div>
 
       <div class="cardA4">
-         <div class="imgA5"></div>
+         <div class="imgA5">
+             <img src="./images/activites/4_small/ParcLonchamps.jpg" alt="Parc Longchamps">
+         </div>
          <div class="contentA" ><p>Parc Longchamps</p></div>
       </div>
         </div>
