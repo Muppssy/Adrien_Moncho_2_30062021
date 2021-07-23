@@ -19,6 +19,11 @@ html
 
 /*-------------Navbar--------------*/
 
+header
+{
+    display: flex;
+    justify-content: flex-end;
+}
 
 #container_navbar
 {
@@ -43,7 +48,8 @@ html
   .liens_activ
   {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: center;
     margin: 2rem 0 0 0;
   }
@@ -97,12 +103,12 @@ html
 {
     margin: 2rem 0 0 0;
     display:flex;
-    flex-wrap:wrap;
+   
 }
 
 .map_img
 {
-    width:3rem;
+    padding: 1rem;
     background: #f2f2f2;
     border-radius: 1rem 0 0 1rem;
     display:flex;
@@ -112,22 +118,28 @@ html
 
 .search_area input
 {
-    height:3rem;
+    padding: 1rem 0 1rem 1rem;
     border: 2px solid #f2f2f2;
     text-align:center;
     font-weight:bold;
 }
 
-.button_search a
+.button_search
 {
-    height:3rem;
-    padding: 0px 1rem 0 1rem;
     display:flex;
     justify-content:center;
     align-items:center;
+    padding: 2rem 1rem 0 1rem;
     background:#0065fc;
     border-radius: 0px 1rem 1rem 0px;
+    
+}
+
+.button_search a
+{
+    margin-bottom:0 ;
     font-weight:bold;
+    text-align: center;
     color:white; 
     cursor: pointer;
 }
@@ -270,9 +282,9 @@ html
 {
     object-fit: cover;
     height: 7.125rem;
-     width: 15.5rem;
+     width: 13.9rem;
     border-radius: 1rem 1rem 0px 0px;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 3px 0px 5px;
 }
 .content 
 {
@@ -321,7 +333,7 @@ html
     font-weight: bold;
 }
 
-/*section Most_popular*/  /*section revoir*/
+/*section Most_popular*/ 
 
 .container_most_popular
 {
@@ -329,7 +341,7 @@ html
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    margin: 2rem 0 2rem 2rem;
+    margin: 1rem 0 1rem 2rem;
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
@@ -343,7 +355,7 @@ html
 
 .container_card_popular
 {
-    margin: 2rem 0px 0.5rem 0px;
+    margin: 1rem 0 1em 1rem;
 }
 
 
@@ -465,7 +477,7 @@ html
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin: 2.8rem 2rem 4rem 1rem; */
+    margin: 2.8rem 2rem 4rem 1rem;
     background: white;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 1px 10px rgb(0 0 0 / 20%);
@@ -478,7 +490,7 @@ html
     display: flex;
     flex-direction: column;
     justify-content:center;
-    /* margin: 2rem 0 0 2rem; */
+     margin: 2rem 0 0 2rem;
     background: white;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
@@ -491,7 +503,7 @@ html
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin: 0px 0px 0px 2rem; */
+    margin: 0px 0px 0px 2rem;
     background: white;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 1px 10px rgb(0 0 0 / 20%);
