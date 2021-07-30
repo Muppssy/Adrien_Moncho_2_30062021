@@ -147,6 +147,11 @@ header
     cursor: pointer;
 }
 
+.loop 
+{
+    display: none;
+}
+
 
 /*--Section Filtre--*/
 
@@ -170,7 +175,7 @@ header
     height: 3rem;
     border: 2px solid #f2f2f2;
     border-radius: 2rem;
-    margin-right: 2rem;
+    margin: 1rem 2rem 0 0;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -466,12 +471,7 @@ span
     margin: 0 0 2rem 0;
 }
 
-.block_A, .block_B
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 0 2rem;
-} 
+
 
 
 
@@ -546,7 +546,7 @@ span
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px 0 2rem 0rem;
+    margin: 0 2rem 2rem 0rem;
 }
 
 
@@ -554,7 +554,7 @@ span
 .imgA
 {   
     height: 100%;
-    max-width: auto; 
+    
 }
 
 .imgA img
@@ -570,8 +570,7 @@ span
 .imgA1
 {   
     height: 100%;
-    max-width: 100%;
-   
+  
 
 }
 
@@ -587,7 +586,7 @@ span
 .imgA2
 {   
     height: 100%;
-    max-width: 100%;
+    
   
 }
 
@@ -603,7 +602,7 @@ span
 .imgA4
 {   
     height: 100%;
-    max-width: 100%;
+   
     
 }
 
@@ -618,7 +617,7 @@ span
 .imgA5
 {   
     height: 100%;
-    max-width: 100%;
+  
     
 }
 
@@ -711,118 +710,5 @@ footer
 .link > a:hover
 {
     color: #0065fc
-}
-
-@media screen and (max-width:1399px) 
-{
-    .container_activA
-    {
-        justify-content: center;
-    }
-}
-
-  
-@media screen and (max-width:1301px) 
-{
-    section
-    {
-        margin: 0 auto;
-        max-width: 1301px;
-        width: 100%;
-    }
-
-    .all_hebergement
-    {
-        flex-direction: column-reverse;
-    }
-    .container_herbegement
-    {
-        margin: 2rem 2rem 0 2rem ;
-    }
-
-    .container_most_popular
-    {
-        margin: 2rem 2rem 0 2rem ;
-    }
-
-    .container_card_popular
-    {
-        flex-direction: row;
-        flex-wrap: wrap;
-        grid-gap: 2rem;
-       
-    }
-
-    .title_activ > h3
-    {
-        justify-content: center;
-    }
-
-    .container_activite
-    {
-        display: block;
-    }
-
-    
-    .container_activA
-    {
-        justify-content: center;
-    }
-    .block_A .block_B
-    {
-        display: block;
-    }
-}
-
-@media screen and (max-width:1007px) 
-{
-    
-    .link_footer
-    {
-        justify-content: space-between;
-    }
-
-    .link
-    {
-        margin-top: 2rem;
-    }
-}
-
-@media screen and (max-width:865px) 
-{
-
-    section
-    {
-        margin: 0 auto;
-        max-width: 838px;
-        width: 100%;
-    }
-
-    .heberge
-    {
-        flex-direction: column;
-        margin: 0 2rem 0 2rem;
-    }
-
-    .container_card_popular
-    {
-        grid-gap: 2rem;
-    }
-    .card_most_popular
-    {
-        flex-grow: 1;
-        justify-content: flex-start;
-    }
-
-}
-
-@media screen and (max-width:865px) 
-{
-    .heberge
-    {
-        flex-shrink: 2;
-        flex-grow: 2;
-    }
-   
 }
 

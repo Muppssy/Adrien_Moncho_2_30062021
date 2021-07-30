@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">        
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_queris.css">
     
     <title>Reservia</title>
 </head>
@@ -35,19 +36,26 @@
             <div class="search_bar_size">
                 <div class="map_img"><i class="fas fa-map-marker-alt"></i></div>
                 <div class="search_area"><input type="search" placeholder="Marseille, France"></div>
-                <div class="button_search"><a href="#">Rechercher</a></div>                                                    
+                <div class="button_search"><a href="#">Rechercher</a>
+                  <span class="loop" >
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>                                                    
            </div> 
  <!--Section Filtre-->
             <div class="filter_size">
                 <div class="title_filter" ><h3>Filtre</h3></div>
+                <div class="filter_phone">
                 <div class="filter">
                     <div class="filter_color"><i class="fas fa-money-bill-wave"></i></div>
                     <div class="text_area" >Economique</div>
                 </div>
+
                 <div class="filter">
                     <div class="filter_color"><i class="fas fa-child"></i></div>
                         <div class="text_area">Familial</div>
                 </div>
+              </div>
                  <div class="filter">
                      <div class="filter_color"><i class="fas fa-heart"></i></div>
                         <div class="text_area" >Romantique</div>
@@ -236,70 +244,66 @@
     
 </section>
 
-    
-                                                          <!--Section Activité-->
+    <!--Section Activité-->
     <div class="container_activite">
 
-        <div class="container_title_activ" >
-            <div id="activ" class="title_activ"></div>
-                <h3>Activités à Marseille</h3>
-            </div>
-        </div>
-    
-      <div class="container_activA">
-        <div class="block_A">
-          <div class="cardA">
-              <div class="imgA">
-                  <img src="./images/activites/4_small/Vieuxport.jpg" alt=" Vieux_port_Marseille">
-              </div>
-              <div class="contentA" ><p>Vieux Port</p></div>
+      <div class="container_title_activ" >
+          <div id="activ" class="title_activ"></div>
+              <h3>Activités à Marseille</h3>
           </div>
-
-       <div class="tof" >
-          <div class="cardA1">
-            <div class="imgA1">
-                <img src="./images/activites/4_small/Fort de pomègue.jpg" alt=" Fort_de_Pomègues">
-            </div>
-            <div class="contentA" ><p>Fort de Pomègues</p></div>
-          </div>
-
-          <div class="cardA2">
-             <div class="imgA2">
-                <img src="./images/activites/4_small/IleduFrioul.jpg" alt=" Ile_du_Frioul">
-             </div>
-             <div class="contentA" ><p>Ile du Frioul</p></div>
-          </div>
-        </div>
       </div>
-
-        <div class="block_B">
+  
+    <div class="container_activA">
         <div class="cardA">
-          <div class="imgA">
-            <img src="./images/activites/4_small/Parcnationaldescalanques.jpg" alt=" Parc_National_des_Calanques">
+            <div class="imgA">
+                <img src="./images/activites/4_small/Vieuxport.jpg" alt=" Vieux_port_Marseille">
+            </div>
+            <div class="contentA" ><p>Vieux Port</p></div>
+        </div>
+
+     <div class="tof" >
+        <div class="cardA1">
+          <div class="imgA1">
+            <img src="./images/activites/4_small/Fortdepomègue.jpg" alt=" Fort_de_Pomègues">
           </div>
-          <div class="contentA" ><p>Parc National des Calanques</p></div>
-      </div>
-
-        <div class="tof" >
-       
-      <div class="cardA3">
-        <div class="imgA4">
-            <img src="./images/activites/4_small/NotredamedelaGarde.jpg" alt="Notre_Dame_de_la_Garde">
+          <div class="contentA" ><p>Fort de Pomègues</p></div>
         </div>
-        <div class="contentA" ><p>Notre-Dame-de-la-Garde</p></div>
-      </div>
 
-      <div class="cardA4">
-         <div class="imgA5">
-            <img src="./images/activites/4_small/ParcLonchamps.jpg" alt=" Parc_Longchamps">
-         </div>
-         <div class="contentA" ><p>Parc Longchamps</p></div>
-      </div>
+        <div class="cardA2">
+           <div class="imgA2">
+              <img src="./images/activites/4_small/IleduFrioul.jpg" alt=" Ile_du_Frioul">
+           </div>
+           <div class="contentA" ><p>Ile du Frioul</p></div>
         </div>
       </div>
 
+      <div class="cardA">
+        <div class="imgA">
+          <img src="./images/activites/4_small/Parcnationaldescalanques.jpg" alt=" Parc_National_des_Calanques">
+        </div>
+        <div class="contentA" ><p>Parc National des Calanques</p></div>
+    </div>
+
+      <div class="tof" >
+     
+    <div class="cardA3">
+      <div class="imgA4">
+          <img src="./images/activites/4_small/NotredamedelaGarde.jpg" alt="Notre_Dame_de_la_Garde">
       </div>
-                                                            <!--FOOTER-->
+      <div class="contentA" ><p>Notre-Dame-de-la-Garde</p></div>
+    </div>
+
+    <div class="cardA4">
+       <div class="imgA5">
+          <img src="./images/activites/4_small/ParcLonchamps.jpg" alt=" Parc_Longchamps">
+       </div>
+       <div class="contentA" ><p>Parc Longchamps</p></div>
+    </div>
+      </div>
+
+    </div>
+      <!--FOOTER-->
+                                                          
      <footer class="footer"  >
           <div class="link_footer">
           <div class="link">
