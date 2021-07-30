@@ -170,6 +170,11 @@ header
     margin-right: 2rem;
 }
 
+.filter_phone
+{
+    display: flex;
+}
+
 .filter
  {
     height: 3rem;
