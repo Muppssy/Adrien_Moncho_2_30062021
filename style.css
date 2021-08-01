@@ -84,7 +84,7 @@ header
 
 .section_search
 {
-    margin: 3rem 0px 0px 3rem;
+    margin: 3rem 0 0 3rem;
 }
 
 .section_search p
@@ -134,7 +134,7 @@ header
     align-items:center;
     padding: 0rem 2rem 0 2rem;
     background:#0065fc;
-    border-radius: 0px 1rem 1rem 0px;
+    border-radius: 0 1rem 1rem 0;
     
 }
 
@@ -258,7 +258,7 @@ header
     flex: 2;
     background-color: #f2f2f2;
   
-    margin: 2rem 0px 2rem 2rem;
+    margin: 2rem 0 2rem 2rem;
     border-radius: 1rem 1rem 1rem 1rem;
 }
 .title
@@ -452,7 +452,7 @@ span
 
 .container_title_activ
 {
-    margin: 6rem 0 0 4rem;
+    margin: 8.7rem 0 0 0;
     display: flex;
     flex-direction: column;
 }
@@ -465,15 +465,14 @@ span
 
 .container_activite
 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 2rem 2rem;
 }
 
 .container_activA
 {
     display: flex;
-   
     flex-wrap: wrap;
-    margin: 0 0 2rem 0;
+    margin: 0 0 2rem 2rem;
 }
 
 
@@ -676,7 +675,8 @@ span
 
 footer
 {
-    height: auto;
+   
+    width: 100%;
     background: #f2f2f2;
     clear: both;
     margin:  0 0 1rem 0;

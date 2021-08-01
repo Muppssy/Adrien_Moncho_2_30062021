@@ -1,3 +1,8 @@
+@media screen and (max-width:1432px) 
+{
+
+}
+
 @media screen and (max-width:1399px) 
 {
     html
@@ -10,7 +15,7 @@
     {
         flex-direction: column;
         justify-content: center;
-        margin: 0 0 0 2rem ;
+        margin: 2rem 2rem 2rem 2rem ;
         flex-shrink: 2;
         flex-grow: 2;
     }
@@ -71,7 +76,7 @@
 
     .tof
     {
-        margin: 0 0 2rem 0;
+        margin: 2rem 2rem 2rem 0rem;
         justify-content: center;
     }
 
@@ -90,7 +95,12 @@
         margin: 0 0 2rem 0;
     }
 
+    .contentA p
+    {
+        margin: 0 0 1rem 0;
+    }
 
+    
 }
 
 
@@ -133,86 +143,15 @@
     .container_activite
     {
         display: block;
+        margin: 0 0 0 2rem;
     }
 
     
     .container_activA
     {
         justify-content: center;
+        margin: 2rem 2rem 2rem 2rem ;
     }
-
-    .imgA
-    {   
-        height: 190px;
-    }
-
-    .imgA img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA2
-    {   
-        height: 190px;
-    }
-    
-    .imgA2 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .tof
-    {
-        margin: 0 0 2rem 0;
-        justify-content: center;
-    }
-
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
-    }
-
-
-    
 }
 
 @media screen and (max-width:1007px) 
@@ -234,77 +173,13 @@
         margin-top: 2rem;
     }
 
-    .imgA
-    {   
-        height: 190px;
-    }
-
-    .imgA img
+    .container_activA
     {
-        width: 100%;
-        height: 134px;
-    }
-
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA2
-    {   
-        height: 190px;
-    }
-    
-    .imgA2 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .tof
-    {
-        margin: 0 0 2rem 0;
         justify-content: center;
+        margin: 2rem 2rem 2rem 2rem ;
     }
 
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
-    }
-
-
+   
 }
 
 @media screen and (max-width:768px) 
@@ -349,79 +224,11 @@
        padding: 0 0 -7px 0;
     }
 
-    .imgA
-    {   
-        height: 190px;
-    }
-
-    .imgA img
+    .container_activA
     {
-        width: 100%;
-        height: 134px;
-    }
-
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
-    {
-      
-        width: 100%;
-        height: 134px;
-       
-    }
-    
-    .imgA2
-    {   
-        height: 190px;
-    }
-    
-    .imgA2 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .tof
-    {
-        margin: 0 0 2rem 0;
         justify-content: center;
+        margin: 2rem 2rem 2rem 2rem ;
     }
-
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
-    }
-
-
 }
 
 
@@ -447,10 +254,17 @@
         width: 91%;
         margin: 2rem 2rem 0px 2rem;
     }
+
+   
         
     .container
     {
         flex-direction: column;
+    }
+
+    .img img
+    {
+        width: 98.6%;
     }
 
     .container_card_popular
@@ -486,84 +300,8 @@
     .container_activA
     {
         justify-content: center;
+        margin: 2rem 2rem 2rem 2rem ;
     }
-
-    .img img
-    {
-       width: 98.6%;
-    }
-
-    .imgA
-    {   
-        height: 190px;
-    }
-
-    .imgA img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA2
-    {   
-        height: 190px;
-    }
-    
-    .imgA2 img
-    { 
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .tof
-    {
-        margin: 0 0 2rem 0;
-        justify-content: center;
-    }
-
-
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
-    }
-
 
 }
 
@@ -574,79 +312,8 @@
     .container_activA
     {
         justify-content: center;
+        margin: 2rem 2rem 2rem 2rem ;
     }
-
-    .imgA
-    {   
-        height: 190px;
-    }
-
-    .imgA img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA2
-    {   
-        height: 190px;
-    }
-    
-    .imgA2 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .tof
-    {
-        margin: 0 0 2rem 0;
-        justify-content: center;
-    }
-
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
-    }
-
-
 } 
 
 
@@ -671,85 +338,11 @@
         left: 58%;
     }
 
+   
     .container_activA
     {
         justify-content: center;
-    }
-
-
-    .imgA
-    {   
-        height: 190px;
-    }
-
-    .imgA img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA2
-    {   
-        height: 190px
-    }
-    
-    .imgA2 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-
-    .tof
-    {
-        margin: 0 0 2rem 0;
-        justify-content: center;
-    }
-
-    .cardA
-    {
-        width: 100%;
-    }
-
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
+        margin: 2rem 2rem 2rem 2rem ;
     }
 
 }
@@ -772,9 +365,10 @@
 
     .button_search
     {
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1rem 0rem 1rem 0rem;
         margin: 0 0 0 -1rem;
         border-radius: 1rem 1rem 1rem 1rem;
+        width: 13%;
     }
 
     .button_search a
@@ -797,77 +391,39 @@
     .container_activA
     {
         justify-content: center;
+        margin: 2rem 1rem 2rem 1rem ;
+    }
+}
+
+@media screen and (max-width:458px) 
+{
+
+    .tof 
+    {
+        margin: 2rem 2rem 2rem 1rem;
+        justify-content: center;
     }
 
-    .imgA
-    {   
-        height: 190px;
+    .container_activA
+    {
+        justify-content: center;
+        margin: 2rem 2rem 2rem 0rem ;
     }
 
-    .imgA img
-    {
-        width: 100%;
-        height: 134px;
-    }
+}
 
-    .imgA1
-    {   
-        height: 190px;
-    }
-    
-    .imgA1 img
+@media screen and (max-width:489px) and (min-height:459px) 
+{
+    .container_activA
     {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA2
-    {   
-        height: 190px;
-    }
-    
-    .imgA2 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    
-    .imgA4
-    {   
-        height: 190px;
-    }
-    
-    .imgA4 img
-    {
-        width: 100%;
-        height: 134px;
-    }
-    .imgA5
-    {   
-        height: 190px;
-    }
-    
-    .imgA5 img
-    {
-        width: 100%;
-        height: 134px;
+        justify-content: center;
+        margin: 2rem -1rem 2rem 1rem ;
     }
 
     .tof
     {
-        margin: 0 0 2rem 0;
-        justify-content: center;
+        margin: 2rem 2rem 2rem 1rem ;
     }
-
-    .cardA1
-    {
-        margin: 0 0 2rem 0;
-    }
-
-    .cardA3
-    {
-        margin: 0 0 2rem 0;
-    }
-
-
 }
+
+
