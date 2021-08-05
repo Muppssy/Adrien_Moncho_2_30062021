@@ -1,7 +1,10 @@
 /*Media Queries Reservia*/
 @media  screen and (max-width:1378px) {
 
-    
+    #logo
+    {
+        margin: 1rem 0 0 1rem;
+    }
 
     .liens_activ
     {
@@ -44,7 +47,8 @@
     .active
     {
         position: absolute;
-        top: 5%
+        top: 4%;
+        left: 64%
     }
 
     .all_hebergement
