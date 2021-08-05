@@ -68,7 +68,7 @@ header
   .liens1 a
   {
       color: black;
-      padding: 3rem 1rem 0 1rem;
+      padding: 2.6rem 1rem 0 1rem;
      
   }
   .liens1 a:hover
@@ -170,13 +170,18 @@ header
     justify-content:flex-start;
     align-items:center;
     flex-wrap: wrap;
-  
+}
+
+.title_filter, h3
+{
+   margin: 0 1rem 0 0;
+   align-items: center;
 }
 .filter_phone
 {
     display: flex;
     flex-wrap: wrap;
- 
+    width: 29%;
 }
 .title_filter
 {
@@ -188,12 +193,17 @@ header
 .filter
  {
  
-    border: 2px solid #f2f2f2;
-    border-radius: 2rem;
-    margin: 1rem 2rem 0 0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+border: 2px solid #f2f2f2;
+ 
+border-radius: 2rem;
+ 
+margin: 0rem 2rem 0 0;
+ 
+display:flex;
+ 
+justify-content:center;
+ 
+align-items:center;
  }
 
  .filter_color
