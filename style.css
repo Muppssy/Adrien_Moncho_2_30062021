@@ -17,6 +17,10 @@ html
     min-height: 100vh;
 }
 
+body
+{
+    margin: 0 2rem 0 2rem
+}
 
 /*-------------Navbar--------------*/
 
@@ -201,6 +205,7 @@ header
     display:flex;
     justify-content:center;
     align-items:center;
+    transition: all 0.75s;
 }
 
 .text_area
@@ -252,6 +257,7 @@ header
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin: 2rem 0 2rem
   
 
 }
@@ -278,13 +284,13 @@ header
 
 .container
 {
-    /* grid-gap: 0rem; */
+ 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 1rem 0 1rem 0;
     width: 100%;
-    /* grid-gap: 1rem; */
+  
 }
 
 .heberge
@@ -296,11 +302,11 @@ header
 
 .img
 {
-    margin: 5px 5px 5px 5px;
+    
     background: url("images/hebergements/4_small/aubergelacannebiere.jpg");
     background-position: center;
     background-size: cover;
-    width: 96%;
+    width: 100%;
     height: 6rem;
     border-radius: 1rem 1rem 0 0;
    
@@ -308,11 +314,11 @@ header
 
 .img1
 {
-    margin: 5px 5px 5px 5px;
+   
     background: url("images/hebergements/4_small/Hotelduport.jpg");
     background-position: center;
     background-size: cover;
-    width: 96%;
+    width: 100%;
     height: 6rem;
     border-radius: 1rem 1rem 0 0;
 }
@@ -320,44 +326,44 @@ header
 
 .img3
 {
-    margin: 5px 5px 5px 5px;
+   
     background: url("images/hebergements/4_small/Hotellesmouettes.jpg");
     background-position: center;
     background-size: cover;
-    width: 96%;
+    width: 100%;
     height: 6rem;
     border-radius: 1rem 1rem 0 0;
 }
 
 .img4
 {
-    margin: 5px 5px 5px 5px;
+   
     background: url("images/hebergements/4_small/Hôtel_de_la_mer.jpg");
     background-position: center;
     background-size: cover;
-    width: 96%;
+    width: 100%;
     height: 6rem;
     border-radius: 1rem 1rem 0 0;
 }
 
 .img5
 {
-    margin: 5px 5px 5px 5px;
+    
     background: url("images/hebergements/4_small/AubergelePanier.jpg");
     background-position: center;
     background-size: cover;
-    width: 96%;
+    width: 100%;
     height: 6rem;
     border-radius: 1rem 1rem 0 0;
 }
 
 .img6
 {
-    margin: 5px 5px 5px 5px;
+   
     background: url("images/hebergements/4_small/chezamina.jpg");
     background-position: center;
     background-size: cover;
-    width: 96%;
+    width: 100%;
     height: 6rem;
     border-radius: 1rem 1rem 0 0;
 }
@@ -380,7 +386,7 @@ header
 .content
 {
     height: 92%;
-    margin: 0 0 0 0;
+    padding: 5px 5px  0 5px;
 }
 
 
@@ -528,16 +534,25 @@ margin: 0 0 1rem 1rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 37.5rem;
+    height: auto;
    
+}
+.blockAct
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .cardA
-{   display: flex;
+{
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    width: 23%;
+    width: 45%;
     background: white;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
@@ -589,8 +604,9 @@ margin: 0 0 1rem 1rem;
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 22%;
+    width: 45%;
 }
 
 .cardA1
@@ -687,7 +703,7 @@ margin: 0 0 1rem 1rem;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 10.375rem;
+    height: 100%;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -697,15 +713,22 @@ margin: 0 0 1rem 1rem;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 15.375rem;
+    height: 100%;
     border-radius: 1rem 1rem 0 0;
 }
 
+.cardA:hover, .cardA1:hover, .cardA2:hover,
+.cardA3:hover, .cardA4:hover
+{
+    transform: scale( 1.1);
+}
+
+/*Footer*/
 .footer
 {
    
-    height: auto;
-    margin:  6.25rem 0 0 0;
+    height: 100%;
+    margin:  2.25rem 0 0 0;
     background: #f2f2f2;
     clear: both;
     display: flex;
@@ -723,7 +746,7 @@ margin: 0 0 1rem 1rem;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 2rem 0 2rem;
+    margin: 1.3rem 1.3rem 1.3rem 1.3rem
 }
 
 .link_footer
@@ -742,5 +765,6 @@ margin: 0 0 1rem 1rem;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    height: 9rem;
+    height: 6rem;
+    margin: 0 0 3.1rem 0;
 }

@@ -1,0 +1,161 @@
+/*Media Queries Reservia*/
+@media  screen and (max-width:1378px) {
+
+    
+
+    .liens_activ
+    {
+        width: 100%;
+        border-bottom: 2px solid #f2f2f2;
+        
+    }
+
+    .liens_activ a:hover
+    {
+        width: 24%;
+        border-bottom: 2px solid #f2f2f2;
+        padding: 0rem 1rem 1rem 1rem;
+        
+    }
+    
+
+    .liens1 
+    {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }  
+
+    .liens1 a
+    {
+        color: black;
+        padding: 0rem 1rem 1rem 1rem;
+         
+    }
+
+    .liens1 a:hover
+    {
+        color: #0065fc;
+      font-weight: bold;
+      border-top: none;
+      border-bottom: 2px solid #0065fc;
+    }
+
+    .active
+    {
+        position: absolute;
+        top: 5%
+    }
+
+    .all_hebergement
+    {
+        flex-direction: column-reverse;
+    }
+
+    .container_most_popular
+    {
+        width:100%
+    }
+
+    .container_card_popular
+    {
+        display: flex;
+    }
+
+    .card_most_popular
+    {
+        width: 100%;
+    }
+
+    .container_hebergement
+    {
+        width: 100%;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    
+    
+}
+
+@media  screen and (max-width:989px)
+{
+
+    .heberge
+    {
+        flex-direction: column;
+        margin: 0 2rem 0 2rem;
+    }
+
+    .card
+    {
+        width: 100%;
+        margin-bottom: 2rem ;
+    }
+    .container_card_popular
+    {
+        flex-direction: column;
+        margin: 0 2rem 0 0;
+    }
+
+    .container_card_activity
+    {
+        flex-direction: column;
+    }
+
+    .blockAct
+    {
+        flex-direction: column;
+    }
+
+    .imgAct0, .imgAct1, .imgAct2,
+    .imgAct3, .imgAct4, .imgAct5
+    {
+        height: 12.125rem;
+    }
+
+    .cardA, .cardA1, .cardA2, 
+    .cardA3, .cardA4
+    {
+        margin-bottom: 2rem;
+    }
+
+    .cardA, .bloc_card_Activity
+    {
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width:737px)
+{
+    .link_footer, .link_footer1, .link_footer2
+    {
+        padding-top: 1rem;
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width:425px)
+{
+    body
+    {
+        margin: 0 0.3rem 0 0.3rem;
+    }
+
+    .button_search > a
+    {
+        display: none;
+    }
+
+    .loop
+    {
+        display: flex;
+        color: white;
+    }
+
+    .container_hebergement
+    {
+        background-color: transparent;
+    }
+}
+
+
