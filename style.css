@@ -283,7 +283,7 @@ header
 {
     display: flex;
     align-items: center;
-    padding: 1rem 0 0 1rem;
+    padding: 1rem 0 0 2rem;
   
 }
 
@@ -530,7 +530,7 @@ margin: 0 0 1rem 1rem;
 
 .container_title_activity
 {
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 2rem 1.3rem;
 
 }
 
