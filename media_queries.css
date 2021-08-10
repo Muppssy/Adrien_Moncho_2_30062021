@@ -10,15 +10,11 @@
     {
         width: 100%;
         border-bottom: 2px solid #f2f2f2;
-        
     }
 
     .liens_activ a:hover
     {
-        
-        border-bottom: 2px solid #f2f2f2;
         padding: 0rem 1rem 1rem 1rem;
-        
     }
     
 
@@ -32,8 +28,7 @@
     .liens1 a
     {
         color: black;
-        padding: 0rem 1rem 1rem 1rem;
-         
+        padding: 0rem 1rem 1rem 1rem; 
     }
 
     .liens1 a:hover
@@ -76,9 +71,6 @@
         width: 100%;
         margin: 2rem 0rem 2rem 0rem;
     }
-
-    
-    
 }
 
 @media  screen and (max-width:989px)
